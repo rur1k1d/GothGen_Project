@@ -74,6 +74,7 @@ class Color:
     YELLOW = "\033[33m"
     RED = "\033[31m"
     MAGENTA = "\033[35m"
+    BLUE = "\033[34m"
 
     def __init__(self, enabled: bool = False):
         self.enabled = enabled
@@ -100,6 +101,9 @@ class Color:
 
     def red(self, text: str) -> str:
         return self.c(self.RED, text)
+
+    def blue(self, text: str) -> str:
+        return self.c(self.BLUE, text)
 
 
 COLOR = Color(False)
@@ -567,15 +571,24 @@ def menu_loop(entries: list[NameEntry], lexicon: list[dict[str, str]]):
         print("Interactive menu requires a TTY. Use commands like 'daily', 'generate', etc.")
         raise SystemExit(0)
     global COLOR
-    print(COLOR.bold("  NAME GENERATOR 1.1"))
-    print(COLOR.dim(f"  {len(entries)} names / 7 cultures"))
+    banner = r"""
+  ____       _   _      ____           
+ / ___| ___ | |_| |__  / ___| ___ _ __ 
+| |  _ / _ \| __| '_ \| |  _ / _ \ '_ \
+| |_| | (_) | |_| | | | |_| |  __/ | | |
+ \____|\___/ \__|_| |_|\____|\___|_| |_|
+"""
+    print(COLOR.blue(banner))
+    print(COLOR.bold("  GOTHGEN"))
+    print(COLOR.dim(f"  {len(entries)} nicknames | default: gothic+norse/geat, gender m"))
+    print(COLOR.dim("  (other cultures optional via --culture)"))
     print()
     opts = [
-        ("1", "Daily pick", "One deterministic name for today (--top 1 default)"),
-        ("2", "Generate", "Random filtered list from attested names"),
-        ("3", "Combine", "Construct a name from lexicon elements"),
+        ("1", "Daily pick", "One deterministic nickname for today (--top 1 default)"),
+        ("2", "Generate", "Random filtered list from attested nicknames"),
+        ("3", "Combine", "Construct a nickname from lexicon elements"),
         ("4", "Bynames", "Random byname/epithet (Gothic style)"),
-        ("5", "Name+Byname", "Combine a name with a byname"),
+        ("5", "Name+Byname", "Combine a nickname with a byname"),
         ("6", "Leet", "ASCII and leetspeak variants"),
         ("7", "Offer", "Full card with brand directions and handles"),
         ("8", "Explain", "Provenance and source record"),
