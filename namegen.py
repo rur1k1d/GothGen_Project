@@ -64,6 +64,14 @@ SPECIAL_ASCII = str.maketrans(
     }
 )
 
+DEFAULT_CULTURE = "gothic"
+CULTURE_GROUPS = {
+    "gothic": {"gothic", "norse", "geat"},
+    "norse": {"norse", "gothic", "geat"},
+    "geat": {"geat", "gothic", "norse", "anglo_saxon"},
+    "varangian_rus": {"varangian_rus", "norse"},
+}
+
 
 class Color:
     RESET = "\033[0m"
@@ -236,10 +244,13 @@ def filter_entries(
     include_places: bool = False,
 ) -> list[NameEntry]:
     result = []
+    allowed = None
+    if culture:
+        allowed = CULTURE_GROUPS.get(culture, {culture})
     for entry in entries:
         if not include_places and entry.name_type != "person":
             continue
-        if culture and entry.culture != culture:
+        if allowed is not None and entry.culture not in allowed:
             continue
         if gender and entry.gender != gender:
             continue
@@ -837,7 +848,8 @@ def main(argv: list[str] | None = None) -> int:
         if args.command == "daily":
             if args.top < 1:
                 raise ValueError("--top must be at least 1")
-            picks = daily_entries(entries, args.date, args.culture, args.top)
+            culture = args.culture if args.culture is not None else DEFAULT_CULTURE
+            picks = daily_entries(entries, args.date, culture, args.top)
             for index, entry in enumerate(picks, 1):
                 if args.top > 1:
                     print(f"=== {index} ===")
@@ -845,14 +857,56 @@ def main(argv: list[str] | None = None) -> int:
                 print()
             return 0
         if args.command == "generate":
+            if (not sys.stdout.isatty() or args.culture is not None or args.gender is not None) and not args.json:
+                # if called non-interactively or with flags keep old behavior
+                pass
+            if sys.stdout.isatty() and args.culture is None and args.gender is None and not args.json and args.seed is None and args.count == 5 and not args.include_places:
+                print(COLOR.bold("Generate - choose group"))
+                cultures = [
+                    ("1", "gothic", "gothic + norse + geat (default)"),
+                    ("2", "norse", "norse only"),
+                    ("3", "geat", "geat only"),
+                    ("4", "anglo_saxon", "anglo-saxon"),
+                    ("5", "varangian_rus", "varangian rus"),
+                    ("6", "scythian", "scythian (attested-only)"),
+                    ("7", "alan_sarmatian", "alan/sarmatian (attested-only)"),
+                    ("0", "cancel", "cancel"),
+                ]
+                for k, c, d in cultures:
+                    print(f"  {COLOR.cyan(k)}) {COLOR.bold(c)}   {COLOR.dim(d)}")
+                ch = input(f"\n{COLOR.cyan('>')} ").strip()
+                cmap = {"1": DEFAULT_CULTURE, "2": "norse", "3": "geat", "4": "anglo_saxon", "5": "varangian_rus", "6": "scythian", "7": "alan_sarmatian"}
+                if ch == "0" or ch not in cmap:
+                    return 0
+                culture = cmap[ch]
+                gender = "m"
+                try:
+                    cstr = input(f"{COLOR.dim('Count')} [5]: ").strip()
+                    count = int(cstr) if cstr else 5
+                except Exception:
+                    count = 5
+                try:
+                    sstr = input(f"{COLOR.dim('Seed')} (empty=random): ").strip()
+                    seed = int(sstr) if sstr else None
+                except Exception:
+                    seed = None
+                picked = generate_entries(entries, culture=culture, gender=gender, count=count, seed=seed, include_places=False)
+                for index, entry in enumerate(picked, 1):
+                    print(f"=== {index} ===")
+                    print(format_entry(entry))
+                    print()
+                return 0
+            culture = args.culture if args.culture is not None else DEFAULT_CULTURE
+            gender = args.gender if args.gender is not None else "m"
             picked = generate_entries(
                 entries,
-                culture=args.culture,
-                gender=args.gender,
+                culture=culture,
+                gender=gender,
                 count=args.count,
                 seed=args.seed,
                 include_places=args.include_places,
-            )
+)
+
             if args.json:
                 COLOR = Color(False)
                 print(json.dumps([json.loads(entry_to_json(entry)) for entry in picked], ensure_ascii=False, indent=2))
