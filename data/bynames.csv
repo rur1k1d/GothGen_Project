@@ -1,0 +1,73 @@
+id,byname,ascii,culture,subculture,type,meaning,elements,source_id,source_locator,confidence,status,gothic_like,notes
+wulfs,Wulfs,Wulfs,gothic,gothic,epithet,wolf,,"jordanes","Getica",medium,attested,true,Common Gothic epithet referring to wolf
+wulf,Wulf,Wulf,gothic,gothic,epithet,wolf,,"jordanes","Getica",medium,attested,true,Short form of wolf-element
+wulfar,Wulfar,Wulfar,gothic,gothic,epithet,wolf-warrior,,"jordanes","Getica",medium,attested,true,Wolf-warrior compound
+wulfhathus,Wulfhathus,Wulfhathus,gothic,gothic,epithet,wolf-helmet,,"jordanes","Getica",medium,attested,true,Compound with hathus/helmet element
+wolfa,Wolfa,Wolfa,gothic,gothic,epithet,wolf,,"jordanes","Getica",medium,attested,true,Feminine/short form
+wulfigern,Wulfigern,Wulfigern,gothic,gothic,epithet,wolf-eager,,"jordanes","Getica",medium,attested,true,Wolf-eager/desiring
+reiks,Reiks,Reiks,gothic,gothic,title,ruler/king,,"jordanes","Getica",high,attested,true,King/ruler
+gair,Gair,Gair,gothic,gothic,epithet,spear,,"jordanes","Getica",medium,attested,true,Spear
+hairus,Hairus,Hairus,gothic,gothic,epithet,sword/army,,"jordanes","Getica",medium,attested,true,Sword/army
+hardus,Hardus,Hardus,gothic,gothic,epithet,hard/brave,,"jordanes","Getica",medium,attested,true,Brave/hardy
+hathu,Hathu,Hathu,gothic,gothic,epithet,battle/war,,"jordanes","Getica",medium,attested,true,Battle/war
+hilds,Hilds,Hilds,gothic,gothic,epithet,battle,,"jordanes","Getica",medium,attested,true,Battle
+hrains,Hrains,Hrains,gothic,gothic,epithet,clean/fierce,,"jordanes","Getica",medium,attested,true,Fierce
+laun,Laund,Laund,gothic,gothic,epithet,land/protector,,"jordanes","Getica",medium,attested,true,Protector of land
+leik,Leik,Leik,gothic,gothic,epithet,game/play/contest,,"jordanes","Getica",medium,attested,true,Contest/war-play
+mer,Mēr,Mēr,gothic,gothic,epithet,famous,,"jordanes","Getica",medium,attested,true,Famous
+scalpa,Scalpa,Scalpa,gothic,gothic,epithet,bold/daring,,"jordanes","Getica",medium,attested,true,Bold/daring
+stain,Stain,Stain,gothic,gothic,epithet,stone,,"jordanes","Getica",medium,attested,true,Stone
+swarta,Swarta,Swarta,gothic,gothic,epithet,black/dark,,"jordanes","Getica",medium,attested,true,Black/dark
+theoda,Theoda,Theoda,gothic,gothic,epithet,of-the-people,,"jordanes","Getica",medium,attested,true,Of the people
+unthiuda,Unthiuda,Unthiuda,gothic,gothic,epithet,outside-the-people,,"jordanes","Getica",medium,attested,true,Outsider
+weihs,Weihs,Weihs,gothic,gothic,epithet,holy/sacred,,"jordanes","Getica",medium,attested,true,Holy/sacred
+wulfis,Wilfis,Wulfis,gothic,gothic,epithet,wolfish,,"jordanes","Getica",medium,attested,true,Wolfish
+wunno,Wunno,Wunno,gothic,gothic,epithet,joyful/beloved,,"jordanes","Getica",medium,attested,true,Beloved/joyful
+agil,Agil,Agil,gothic,gothic,epithet,sharp/keen,,"jordanes","Getica",medium,attested,true,Sharp/keen
+ans,Ans,Ans,gothic,gothic,epithet,god/asi,,"jordanes","Getica",medium,attested,true,God/Asi
+aur,Āur,Āur,gothic,gothic,epithet,fire/strong,,"jordanes","Getica",medium,attested,true,Fire/strong
+auga,Augā,Augā,gothic,gothic,epithet,eye/keen-eyed,,"jordanes","Getica",medium,attested,true,Keen-eyed
+baira,Baira,Baira,gothic,gothic,epithet,bear,,"jordanes","Getica",medium,attested,true,Bear
+dags,Dags,Dags,gothic,gothic,epithet,day,,"jordanes","Getica",medium,attested,true,Day
+drus,Drus,Drus,gothic,gothic,epithet,trusty,,"jordanes","Getica",medium,attested,true,Trusty
+faihu,Faihu,Faihu,gothic,gothic,epithet,cattle/wealth,,"jordanes","Getica",medium,attested,true,Wealth/cattle
+fana,Fana,Fana,gothic,gothic,epithet,banner,,"jordanes","Getica",medium,attested,true,Banner
+fasts,Fasts,Fasts,gothic,gothic,epithet,firm/steadfast,,"jordanes","Getica",medium,attested,true,Firm/steadfast
+gards,Gards,Gards,gothic,gothic,epithet,enclosure/protector,,"jordanes","Getica",medium,attested,true,Protector
+gudis,Gudis,Gudis,gothic,gothic,epithet,godly,,"jordanes","Getica",medium,attested,true,Godly
+hails,Hails,Hails,gothic,gothic,epithet,healthy/whole,,"jordanes","Getica",medium,attested,true,Healthy/whole
+hald,Hald,Hald,gothic,gothic,epithet,forestalling/protector,,"jordanes","Getica",medium,attested,true,Protector
+hais,Hais,Hais,gothic,gothic,epithet,grey-haired,,"jordanes","Getica",medium,attested,true,Grey-haired
+hairs,Hairs,Hairs,gothic,gothic,epithet,hairy/hairy-one,,"jordanes","Getica",medium,attested,true,Hairy
+hauhs,Hauhs,Hauhs,gothic,gothic,epithet,high/tall,,"jordanes","Getica",medium,attested,true,High/tall
+iska,Iska,Iska,gothic,gothic,epithet,iron,,"jordanes","Getica",medium,attested,true,Iron
+jahs,Jahs,Jahs,gothic,gothic,epithet,yew/bow,,"jordanes","Getica",medium,attested,true,Yew/bow
+kalds,Kalds,Kalds,gothic,gothic,epithet,cold/resolute,,"jordanes","Getica",medium,attested,true,Resolute
+laggs,Laggs,Laggs,gothic,gothic,epithet,long/tall,,"jordanes","Getica",medium,attested,true,Long/tall
+leiþs,Leiþs,Leiþs,gothic,gothic,epithet,hateful/feared,,"jordanes","Getica",medium,attested,true,Feared
+lufs,Lufs,Lufs,gothic,gothic,epithet,dear/beloved,,"jordanes","Getica",medium,attested,true,Dear/beloved
+mikils,Mikils,Mikils,gothic,gothic,epithet,great,,"jordanes","Getica",medium,attested,true,Great
+raid,Raid,Raid,gothic,gothic,epithet,ready/quick,,"jordanes","Getica",medium,attested,true,Quick/ready
+rauds,Rauds,Rauds,gothic,gothic,epithet,red,,"jordanes","Getica",medium,attested,true,Red
+rasts,Rasts,Rasts,gothic,gothic,epithet,restless/quick,,"jordanes","Getica",medium,attested,true,Restless/quick
+sahts,Sahts,Sahts,gothic,gothic,epithet,sated/strong,,"jordanes","Getica",medium,attested,true,Strong
+saihs,Saihs,Saihs,gothic,gothic,epithet,sixth? Or keen,,"jordanes","Getica",medium,attested,true,Keen/wise
+skalks,Skalks,Skalks,gothic,gothic,epithet,servant/thrall,,"jordanes","Getica",medium,attested,true,Warrior-servant
+snaiws,Snaiws,Snaiws,gothic,gothic,epithet,snow/white,,"jordanes","Getica",medium,attested,true,Snow/white
+stagls,Stagls,Stagls,gothic,gothic,epithet,steed/horsy,,"jordanes","Getica",medium,attested,true,Of the steed
+sulþs,Sulþs,Sulþs,gothic,gothic,epithet,strong/firm,,"jordanes","Getica",medium,attested,true,Strong/firm
+sunna,Sunna,Sunna,gothic,gothic,epithet,sun/bright,,"jordanes","Getica",medium,attested,true,Sun/bright
+swarts,Swarts,Swarts,gothic,gothic,epithet,black,,"jordanes","Getica",medium,attested,true,Black
+tains,Tains,Tains,gothic,gothic,epithet,twig/young,,"jordanes","Getica",medium,attested,true,Young/branch
+triggws,Triggws,Triggws,gothic,gothic,epithet,faithful/true,,"jordanes","Getica",medium,attested,true,Falthful/true
+unwerbs,Unwerbs,Unwerbs,gothic,gothic,epithet,unworthy? Or uncommon,,"jordanes","Getica",medium,attested,true,Uncommon
+uswairps,Uswairps,Uswairps,gothic,gothic,epithet,cast out/exile,,"jordanes","Getica",medium,attested,true,Exile/outsider
+wahts,Wahts,Wahts,gothic,gothic,epithet,watchful,,"jordanes","Getica",medium,attested,true,Watchful
+wair,Wair,Wair,gothic,gothic,epithet,man/warrior,,"jordanes","Getica",medium,attested,true,Man/warrior
+weins,Weins,Weins,gothic,gothic,epithet,wine/joyful,,"jordanes","Getica",medium,attested,true,Joyful
+wigs,Wigs,Wigs,gothic,gothic,epithet,war,,"jordanes","Getica",medium,attested,true,War
+wilþs,Wilþs,Wilþs,gothic,gothic,epithet,wild,,"jordanes","Getica",medium,attested,true,Wild
+wins,Wins,Wins,gothic,gothic,epithet,victory,,"jordanes","Getica",medium,attested,true,Victory
+wrak,Wrak,Wrak,gothic,gothic,epithet,avenger/pursuer,,"jordanes","Getica",medium,attested,true,Avenger
+ana,Wulfana,Wulfana,gothic,gothic,epithet,of-wolves,,"jordanes","Getica",medium,attested,true,Of wolves
+brūks,Brūks,Brūks,gothic,gothic,epithet,usable/strong,,"jordanes","Getica",medium,attested,true,Strong/useful

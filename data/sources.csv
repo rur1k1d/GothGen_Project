@@ -1,0 +1,26 @@
+source_id,author,title,year,edition,url,license,accessed,notes
+wulfila,,Wulfila Project: Gothic Bible,,,https://wulfila.be/,See site terms,2026-10-22,Digital edition; audit terms before redistributing data.
+streitberg1910,Wilhelm Streitberg,Die Gotische Bibel,1910,"Carl Winter, Heidelberg",http://www.wulfila.be/lib/streitberg/1910/text/html/,Public domain,2026-10-22,Gothic lexicon and text.
+gothic_lang_dict,,Gothic dictionaries (gothic-lang),,,https://github.com/gothic-lang/dictionaries,See repository license,2026-10-22,CSV dictionary data; audit before redistribution.
+jordanes,Jordanes,The Origin and Deeds of the Goths,1915,trans. C. C. Mierow,https://www.gutenberg.org/ebooks/14809,Public domain,2026-10-22,Getica.
+procopius,Procopius,"History of the Wars, Books V and VI: The Gothic War",1914,trans. H. B. Dewing,https://www.gutenberg.org/ebooks/20298,Public domain,2026-10-22,Gothic War.
+beowulf,,Beowulf: An Anglo-Saxon Epic Poem,1892,trans. J. Lesslie Hall,https://www.gutenberg.org/ebooks/16328,Public domain,2026-10-22,Old English epic.
+anglo_saxon_chronicle,J. Ingram and J. A. Giles,The Anglo-Saxon Chronicle,,,https://www.gutenberg.org/ebooks/657,Public domain,2026-10-22,Names and annal numbers only.
+bede,,Bede's Ecclesiastical History of England,,,https://www.gutenberg.org/ebooks/38326,Public domain,2026-10-22,Ecclesiastical History.
+poetic_edda,,The Poetic Edda,,,https://www.gutenberg.org/ebooks/73533,Public domain,2026-10-22,Old Norse poems.
+prose_edda,Snorri Sturluson,The Prose Edda,,,https://www.gutenberg.org/ebooks/18947,Public domain,2026-10-22,Younger Edda.
+landnamabok,,Landnamabok,,,,Public domain,2026-10-22,Edition to be selected; names only.
+heimskringla,Snorri Sturluson,Heimskringla,,,,Public domain,2026-10-22,Edition to be selected; names only.
+norse_sagas,,Icelandic sagas,,,,Public domain,2026-10-22,Multiple editions; names only.
+runestones,,Runic inscriptions (Rundata / Samnordisk runtextdatabas),,,,Reference use; audit database terms,2026-10-22,Names and memorial formulas only.
+primary_chronicle,,Primary Chronicle (Laurentian Codex),1953,trans. S. H. Cross and O. P. Sherbowitz-Wetzor,,Names as historical facts,2026-10-22,No text excerpts; names and annal references only.
+rus_treaties,,Rus-Byzantine treaties in the Primary Chronicle,,,,Names as historical facts,2026-10-22,"Treaties of 907, 911, 944."
+de_administrando,Constantine Porphyrogenitus,De Administrando Imperio,1967,"ed. G. Moravcsik, trans. R. J. H. Jenkins",,Names as historical facts,2026-10-22,Imperial administration and Rus names.
+ibn_fadlan,Ahmad ibn Fadlan,Risala,,,,Names as historical facts,2026-10-22,Travel account; names only.
+herodotus,Herodotus,The History of Herodotus,,,https://www.gutenberg.org/ebooks/2707,Public domain,2026-10-22,Scythian logos in Book 4.
+bosporan_inscriptions,,Corpus Inscriptionum Regni Bosporani (CIRB),,,,Reference use,2026-10-22,Bosporan royal and personal names.
+gregory_tours,Gregory of Tours,Historia Francorum,,,,Public domain,2026-10-22,Goar and the Alans.
+attila_tw,,Total War: Attila name database,,,,Game EULA; private use only,2026-10-22,Optional private layer; never committed or redistributed.
+constructed,,Constructed from lexicon,,,,Generated,2026-10-22,Not an attested historical name.
+hervarar_saga,,Hervarar saga ok Heiðreks,,,,Public domain,2026-10-23,Legendary saga; names as legendary figures
+volsunga_saga,,Völsunga saga,,,,Public domain,2026-10-23,Legendary saga; names as legendary figures

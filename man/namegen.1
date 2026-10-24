@@ -1,0 +1,86 @@
+.TH NAMEGEN 1 "October 2023" "namegen 1.1" "User Commands"
+.SH NAME
+namegen \- offline historical and historically inspired name generator
+.SH SYNOPSIS
+.B namegen
+[\fIOPTIONS\fR] \fICOMMAND\fR [\fIARGS\fR]
+.B namegen
+[\fIOPTIONS\fR]
+.SH DESCRIPTION
+.B namegen
+is an offline CLI for historical and historically inspired personal names, brand directions and leetspeak handles.
+.SH INTERACTIVE MODE
+Running
+.B namegen
+with no command starts an interactive menu when stdout is a TTY. Use
+.B namegen menu
+explicitly. Press
+.B 0
+to exit.
+.SH OPTIONS
+.TP
+.B \-\-names \fIFILE\fR
+Path to names CSV
+.TP
+.B \-\-sources \fIFILE\fR
+Path to sources CSV
+.TP
+.B \-\-lexicon \fIFILE\fR
+Path to lexicon CSV
+.TP
+.B \-\-color \fIWHEN\fR
+auto, always, never (default: auto)
+.SH COMMANDS
+.TP
+.B daily [\-\-date \fIDATE\fR] [\-\-culture \fICULTURE\fR] [\-\-top \fIN\fR]
+Deterministic picks (default top=1)
+.TP
+.B generate [\-\-culture \fICULTURE\fR] [\-\-gender \fIGENDER\fR] [\-\-count \fIN\fR] [\-\-seed \fIN\fR] [\-\-include\-places] [\-\-json]
+Sample attested names
+.TP
+.B combine [\-\-culture \fICULTURE\fR] [\-\-count \fIN\fR] [\-\-seed \fIN\fR] [\-\-json]
+Construct from lexicon (constructed)
+.TP
+.B leet \fINAME\fR
+Leetspeak variants
+.TP
+.B offer \fINAME\fR [\-\-brand \fIBRAND\fR] [\-\-json]
+Card with brand directions
+.TP
+.B explain \fINAME\fR [\-\-json]
+Full record and source
+.TP
+.B stats [\-\-json]
+Corpus counts
+.TP
+.B validate [\-\-json]
+Data integrity check
+.TP
+.B menu
+Start interactive menu
+.SH EXAMPLES
+.B namegen daily
+.br
+.B namegen daily --top 5
+.br
+.B namegen generate --culture norse --gender f --count 3 --seed 42
+.br
+.B namegen combine --culture gothic --count 3 --seed 7
+.br
+.B namegen leet Alaric
+.br
+.B namegen offer Rurik
+.br
+.B namegen explain Goar --json
+.br
+.B namegen stats
+.br
+.B namegen validate
+.br
+.B namegen
+.br
+.B man ./man/namegen.1
+.SH FILES
+.B ./namegen.py, ./data/*.csv, ./man/namegen.1
+.SH SEE ALSO
+README.md

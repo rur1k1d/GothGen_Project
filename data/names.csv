@@ -1,0 +1,217 @@
+id,name,ascii,gender,name_type,culture,subculture,origin,era,source_id,source_locator,meaning,elements,variants,status,confidence,gothic_like,notes
+alaric,Alaric,Alaric,m,person,gothic,visigothic,gothic,4th-5th c.,jordanes,Getica,all-ruler,ala+reiks,Alareiks|Alaricus,attested,medium,false,Visigothic king
+ataulf,Ataulf,Ataulf,m,person,gothic,visigothic,gothic,4th-5th c.,jordanes,Getica,father-wolf,atta+wulfs,Ataulfus,attested,medium,false,Visigothic king
+theodoric,Theodoric,Theodoric,m,person,gothic,ostrogothic,gothic,5th-6th c.,jordanes,Getica,people-ruler,thiuda+reiks,Theoderic|Dietrich,attested,high,false,Ostrogothic king
+amalaric,Amalaric,Amalaric,m,person,gothic,visigothic,gothic,6th c.,jordanes,Getica,Amal ruler,Amal+reiks,Amalric,attested,medium,false,Visigothic king
+wulfila,Wulfila,Wulfila,m,person,gothic,crimean_gothic,gothic,4th c.,wulfila,Codex Argenteus,little wolf,wulfs+-ila,Ulfilas,attested,high,false,Gothic bishop and translator
+ermanaric,Ermanaric,Ermanaric,m,person,gothic,ostrogothic,gothic,4th c.,jordanes,Getica,great ruler (uncertain),airmana+reiks,Hermanaric,attested,low,false,Ostrogothic king
+fritigern,Fritigern,Fritigern,m,person,gothic,visigothic,gothic,4th c.,jordanes,Getica,peace-desiring (uncertain),frithus+gaírns,Fritigernus,attested,low,false,Visigothic leader
+alatheus,Alatheus,Alatheus,m,person,gothic,ostrogothic,gothic,4th c.,jordanes,Getica,uncertain,,,attested,low,false,Gothic leader
+saphrax,Saphrax,Saphrax,m,person,gothic,ostrogothic,gothic,4th c.,jordanes,Getica,uncertain,,,attested,low,false,Gothic leader
+gainas,Gainas,Gainas,m,person,gothic,ostrogothic,gothic,4th-5th c.,procopius,Wars,uncertain,,,attested,low,false,Gothic general
+cniva,Cniva,Cniva,m,person,gothic,gothic,gothic,3rd c.,jordanes,Getica,uncertain,,,attested,low,false,Gothic king
+radagaisus,Radagaisus,Radagaisus,m,person,gothic,gothic,gothic,4th-5th c.,jordanes,Getica,uncertain,,,attested,low,false,Gothic leader
+theodahad,Theodahad,Theodahad,m,person,gothic,ostrogothic,gothic,6th c.,procopius,Wars,people-war (uncertain),thiuda+hadu,Theodahadus,attested,low,false,Ostrogothic king
+vitiges,Vitiges,Vitiges,m,person,gothic,ostrogothic,gothic,6th c.,procopius,Wars,uncertain,,,attested,low,false,Ostrogothic king
+totila,Totila,Totila,m,person,gothic,ostrogothic,gothic,6th c.,procopius,Wars,uncertain,,Baduila,attested,low,false,Ostrogothic king
+teia,Teia,Teia,m,person,gothic,ostrogothic,gothic,6th c.,procopius,Wars,uncertain,,,attested,low,false,Ostrogothic king
+hilderic,Hilderic,Hilderic,m,person,gothic,gothic,gothic,5th-6th c.,jordanes,Getica,battle-ruler,hildi+reiks,Hildiriks,attested,medium,false,Vandal king of Gothic descent
+amalaberga,Amalaberga,Amalaberga,f,person,gothic,ostrogothic,gothic,6th c.,jordanes,Getica,Amal protection (uncertain),Amal+berga,,attested,low,false,Ostrogothic princess
+matasuintha,Matasuintha,Matasuintha,f,person,gothic,ostrogothic,gothic,6th c.,jordanes,Getica,uncertain,,,attested,low,false,Ostrogothic princess
+leovigild,Leovigild,Leovigild,m,person,gothic,visigothic,gothic,6th c.,jordanes,Getica,dear pledge (uncertain),liufs+gild,Leovigildus,attested,low,false,Visigothic king
+beowulf,Beowulf,Beowulf,m,person,geat,geat,geat,6th c.,beowulf,Beowulf,bee-wolf,beo+wulf,Biowulf,attested,medium,false,"Geatish hero; legendary figure in Beowulf, literary attestation only"
+hygelac,Hygelac,Hygelac,m,person,geat,geat,geat,6th c.,beowulf,Beowulf,uncertain,hyge+lac,Hugleikr,attested,low,false,Geatish king
+haethcyn,Haethcyn,Haethcyn,m,person,geat,geat,geat,6th c.,beowulf,Beowulf,uncertain,,,attested,low,false,Geatish prince
+hrethel,Hrethel,Hrethel,m,person,geat,geat,geat,6th c.,beowulf,Beowulf,uncertain,,,attested,low,false,Geatish king
+ongentheow,Ongentheow,Ongentheow,m,person,geat,geat,geat,6th c.,beowulf,Beowulf,opposing servant (uncertain),and+theow,Ongentheus,attested,low,false,Geatish king
+wiglaf,Wiglaf,Wiglaf,m,person,geat,geat,geat,6th c.,beowulf,Beowulf,war remnant (uncertain),wig+laif,,attested,medium,false,Geatish warrior
+eadgils,Eadgils,Eadgils,m,person,geat,geat,geat,6th c.,beowulf,Beowulf,wealth hostage (uncertain),ead+gils,Adils,attested,medium,false,Geatish king
+eanmund,Eanmund,Eanmund,m,person,geat,geat,geat,6th c.,beowulf,Beowulf,grace protection (uncertain),ean+mund,,attested,low,false,Geatish prince
+weohstan,Weohstan,Weohstan,m,person,geat,geat,geat,6th c.,beowulf,Beowulf,war stone (uncertain),weoh+stan,Wihstan,attested,low,false,Geatish warrior
+aethelred,Aethelred,Aethelred,m,person,anglo_saxon,anglo_saxon,anglo_saxon,9th-10th c.,anglo_saxon_chronicle,s.a. 978,noble counsel,aethel+raed,Ethelred,attested,high,false,King of England
+aethelflaed,Aethelflaed,Aethelflaed,f,person,anglo_saxon,anglo_saxon,anglo_saxon,9th-10th c.,anglo_saxon_chronicle,s.a. 918,noble beauty,aethel+flaed,Ethelfleda,attested,high,false,Lady of the Mercians
+wulfstan,Wulfstan,Wulfstan,m,person,anglo_saxon,anglo_saxon,anglo_saxon,10th-11th c.,anglo_saxon_chronicle,s.a. 1016,wolf stone,wulf+stan,Wulstan,attested,high,false,Archbishop of York
+wulfhere,Wulfhere,Wulfhere,m,person,anglo_saxon,anglo_saxon,anglo_saxon,7th c.,bede,HE,wolf army,wulf+here,,attested,medium,false,King of Mercia
+leofric,Leofric,Leofric,m,person,anglo_saxon,anglo_saxon,anglo_saxon,11th c.,anglo_saxon_chronicle,s.a. 1057,dear ruler,leof+ric,,attested,high,false,Earl of Mercia
+eadward,Eadward,Eadward,m,person,anglo_saxon,anglo_saxon,anglo_saxon,11th c.,anglo_saxon_chronicle,s.a. 1066,wealth guard,ead+weard,Edward,attested,high,false,King of England
+beorn,Beorn,Beorn,m,person,anglo_saxon,anglo_saxon,anglo_saxon,11th c.,anglo_saxon_chronicle,s.a. 1049,bear,beorn,Bjorn,attested,high,false,Anglo-Saxon earl
+hild,Hild,Hild,f,person,anglo_saxon,anglo_saxon,anglo_saxon,7th c.,bede,HE,battle,hild,Hilda,attested,high,false,Abbess of Whitby
+guthrum,Guthrum,Guthrum,m,person,anglo_saxon,anglo_saxon,norse,9th c.,anglo_saxon_chronicle,s.a. 878,war (uncertain),guth,Guthorm,attested,low,false,Viking king
+oswald,Oswald,Oswald,m,person,anglo_saxon,anglo_saxon,anglo_saxon,7th c.,bede,HE,god power,os+weald,,attested,high,false,King of Northumbria
+hrothgar,Hrothgar,Hrothgar,m,person,anglo_saxon,danish,danish,6th c.,beowulf,Beowulf,glory spear,hroth+gar,Hrothgar,attested,medium,false,Danish king in Beowulf
+ragnar,Ragnar,Ragnar,m,person,norse,norse,norse,9th c.,norse_sagas,Ragnars saga,army counsel,ragn+her,Regnar,attested,high,false,Legendary Viking leader
+bjorn,Bjorn,Bjorn,m,person,norse,norse,norse,9th c.,landnamabok,Landnamabok,bear,bjorn,Bjorn,attested,high,false,Norse personal name
+harald,Harald,Harald,m,person,norse,norse,norse,9th-11th c.,heimskringla,Heimskringla,army ruler,har+valdr,Haraldr,attested,high,false,Norse royal name
+halfdan,Halfdan,Halfdan,m,person,norse,norse,norse,9th c.,landnamabok,Landnamabok,half Dane,half+dan,Halfdanr,attested,high,false,Norse personal name
+sigrid,Sigrid,Sigrid,f,person,norse,norse,norse,10th-11th c.,norse_sagas,Sagas,victory beauty,sigr+frid,Sigridr,attested,high,false,Norse personal name
+gunnhild,Gunnhild,Gunnhild,f,person,norse,norse,norse,10th c.,heimskringla,Heimskringla,war battle,gunn+hild,Gunnhildr,attested,high,false,Norse royal name
+astrid,Astrid,Astrid,f,person,norse,norse,norse,11th c.,norse_sagas,Sagas,god beauty,ass+frid,Astridr,attested,high,false,Norse personal name
+leif,Leif,Leif,m,person,norse,norse,norse,10th-11th c.,landnamabok,Landnamabok,heir or descendant,leif,Leifr,attested,high,false,Norse explorer
+erik,Erik,Erik,m,person,norse,norse,norse,10th c.,norse_sagas,Sagas,ever ruler,e+rik,Eirikr,attested,high,false,Norse personal name
+hrafn,Hrafn,Hrafn,m,person,norse,norse,norse,9th-10th c.,landnamabok,Landnamabok,raven,hrafn,Hrafn,attested,high,false,Norse personal name
+ulfr,Ulfr,Ulfr,m,person,norse,norse,norse,9th-10th c.,runestones,Runestones,wolf,ulfr,Ulf,attested,high,false,Norse personal name
+hildr,Hildr,Hildr,f,person,norse,norse,norse,9th-10th c.,poetic_edda,Edda,battle,hildr,Hild,attested,high,false,Norse Valkyrie name
+freydis,Freydis,Freydis,f,person,norse,norse,norse,10th-11th c.,norse_sagas,Sagas,Freyr goddess,frey+dis,Freydis,attested,high,false,Norse personal name
+gudrun,Gudrun,Gudrun,f,person,norse,norse,norse,9th-11th c.,poetic_edda,Edda,god rune (uncertain),gud+run,Gudrun,attested,medium,false,Heroine of the Volsung cycle
+heorot,Heorot,Heorot,n/a,place,anglo_saxon,danish,danish,6th c.,beowulf,Beowulf,hart or stag enclosure,heorot,,attested,medium,false,"Mead-hall in Beowulf, not a personal name"
+rurik,Rurik,Rurik,m,person,varangian_rus,rus,norse,9th c.,primary_chronicle,s.a. 862,famous ruler (uncertain),hroth+rik,Rorikr,attested,medium,false,Varangian leader
+oleg,Oleg,Oleg,m,person,varangian_rus,rus,norse,9th-10th c.,primary_chronicle,s.a. 882,holy or blessed,helgi,Helgi,attested,high,false,Rus ruler
+igor,Igor,Igor,m,person,varangian_rus,rus,norse,10th c.,primary_chronicle,s.a. 945,Ing's warrior,ingvar,Ingvar,attested,high,false,Rus ruler
+olga,Olga,Olga,f,person,varangian_rus,rus,norse,10th c.,primary_chronicle,s.a. 945,holy,helga,Helga,attested,high,false,Rus ruler
+svyatoslav,Svyatoslav,Svyatoslav,m,person,varangian_rus,rus,slavic,10th c.,primary_chronicle,s.a. 964,holy glory,svyat+slava,Sviatoslav,attested,high,false,Rus ruler
+vladimir,Vladimir,Vladimir,m,person,varangian_rus,rus,slavic,10th-11th c.,primary_chronicle,s.a. 980,great rule (uncertain),volod+mir,Valdemar,attested,medium,false,Rus ruler
+yaroslav,Yaroslav,Yaroslav,m,person,varangian_rus,rus,slavic,11th c.,primary_chronicle,s.a. 1019,fierce glory,yar+slava,Jarizleifr,attested,high,false,Rus ruler
+gleb,Gleb,Gleb,m,person,varangian_rus,rus,slavic,11th c.,primary_chronicle,s.a. 1015,inheritance (uncertain),,,attested,low,false,Rus prince
+boris,Boris,Boris,m,person,varangian_rus,rus,slavic,11th c.,primary_chronicle,s.a. 1015,uncertain,,,attested,low,false,Rus prince
+rogvolod,Rogvolod,Rogvolod,m,person,varangian_rus,rus,slavic,10th c.,primary_chronicle,s.a. 980,horn or rule (uncertain),rog+volod,,attested,low,false,Polotsk prince
+vseslav,Vseslav,Vseslav,m,person,varangian_rus,rus,slavic,11th c.,primary_chronicle,s.a. 1044,all glory,vse+slava,,attested,high,false,Polotsk prince
+mstislav,Mstislav,Mstislav,m,person,varangian_rus,rus,slavic,11th c.,primary_chronicle,s.a. 1024,vengeance glory,msti+slava,,attested,high,false,Rus prince
+rogneda,Rogneda,Rogneda,f,person,varangian_rus,rus,slavic,10th c.,primary_chronicle,s.a. 980,counsel (uncertain),rog+neda,,attested,low,false,Polotsk princess
+eymundr,Eymundr,Eymundr,m,person,varangian_rus,rus,norse,11th c.,norse_sagas,Eymundar saga,island protection,ey+mund,Eymund,attested,medium,false,Varangian in Rus service
+haraldr,Haraldr,Haraldr,m,person,varangian_rus,rus,norse,11th c.,heimskringla,Heimskringla,army ruler,har+valdr,Harald,attested,high,false,Harald Hardrada
+idanthyrsos,Idanthyrsos,Idanthyrsos,m,person,scythian,scythian,iranic,6th c. BCE,herodotus,Hist. 4,uncertain,,Idanthyrsus,attested,low,false,Scythian king
+ariapeithes,Ariapeithes,Ariapeithes,m,person,scythian,scythian,iranic,5th c. BCE,herodotus,Hist. 4,uncertain,,Ariapeithes,attested,low,false,Scythian king
+skylas,Skylas,Skylas,m,person,scythian,scythian,iranic,5th c. BCE,herodotus,Hist. 4,uncertain,,Scyles,attested,low,false,Scythian king
+oktamasades,Oktamasades,Oktamasades,m,person,scythian,scythian,iranic,5th c. BCE,herodotus,Hist. 4,uncertain,,Octamasades,attested,low,false,Scythian prince
+anacharsis,Anacharsis,Anacharsis,m,person,scythian,scythian,iranic,6th c. BCE,herodotus,Hist. 4,uncertain,,,attested,low,false,Scythian sage
+spargapeithes,Spargapeithes,Spargapeithes,m,person,scythian,scythian,iranic,5th c. BCE,herodotus,Hist. 4,uncertain,,,attested,low,false,Scythian king
+targitaos,Targitaos,Targitaos,m,person,scythian,scythian,iranic,mythical,herodotus,Hist. 4,uncertain,,Targitaus,attested,low,false,Scythian ancestor
+kolaxais,Kolaxais,Kolaxais,m,person,scythian,scythian,iranic,mythical,herodotus,Hist. 4,uncertain,,Colaxais,attested,low,false,Scythian ancestor
+lipoxais,Lipoxais,Lipoxais,m,person,scythian,scythian,iranic,mythical,herodotus,Hist. 4,uncertain,,,attested,low,false,Scythian ancestor
+arpoxais,Arpoxais,Arpoxais,m,person,scythian,scythian,iranic,mythical,herodotus,Hist. 4,uncertain,,,attested,low,false,Scythian ancestor
+goar,Goar,Goar,m,person,alan_sarmatian,alans,iranic,5th c.,gregory_tours,Hist. 2.9,uncertain,,Goare,attested,medium,true,"Alanic king; included for Gothic-like resemblance, not a Gothic cognate"
+respendial,Respendial,Respendial,m,person,alan_sarmatian,alans,iranic,5th c.,gregory_tours,Hist. 2.9,uncertain,,Respendial,attested,low,false,Alanic king
+sangiban,Sangiban,Sangiban,m,person,alan_sarmatian,alans,iranic,5th c.,jordanes,Getica,uncertain,,Sangibanus,attested,low,false,Alanic king
+aspar,Aspar,Aspar,m,person,alan_sarmatian,alans,iranic,5th c.,procopius,Wars,uncertain,,,attested,low,false,Alan general in Roman service
+ardabur,Ardabur,Ardabur,m,person,alan_sarmatian,alans,iranic,5th c.,procopius,Wars,uncertain,,Ardaburius,attested,low,false,Alan general in Roman service
+eochar,Eochar,Eochar,m,person,alan_sarmatian,alans,iranic,5th c.,gregory_tours,Hist.,uncertain,,Eochar,attested,low,false,Alanic leader
+beorgus,Beorgus,Beorgus,m,person,alan_sarmatian,alans,iranic,5th c.,jordanes,Getica,uncertain,,Beorgus,attested,low,false,Alanic leader
+gizur,Gizur,Gizur,m,person,geat,geat,geat,legendary,hervarar_saga,Hervarar saga,uncertain,,Gizurr,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+hlod,Hlöd,Hlöd,m,person,geat,geat,geat,legendary,hervarar_saga,Hervarar saga,uncertain,,Hlod,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+angantyr,Angantyr,Angantyr,m,person,geat,geat,geat,legendary,hervarar_saga,Hervarar saga,uncertain,,Angantyr,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+heidrek,Heidrek,Heidrek,m,person,geat,geat,geat,legendary,hervarar_saga,Hervarar saga,uncertain,,Heidrek,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+hervor,Hervor,Hervor,f,person,geat,geat,geat,legendary,hervarar_saga,Hervarar saga,uncertain,,Hervör,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+sigmund,Sigmund,Sigmund,m,person,norse,norse,norse,legendary,volsunga_saga,Völsunga saga,victory protection,sigr+mund,Sigmundr,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+sigurd,Sigurd,Sigurd,m,person,norse,norse,norse,legendary,volsunga_saga,Völsunga saga,victory guard,sigr+vard,Sigurðr,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+brynhild,Brynhild,Brynhild,f,person,norse,norse,norse,legendary,volsunga_saga,Völsunga saga,armour battle,bryn+hild,Brynhildr,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+volund,Volund,Volund,m,person,norse,norse,norse,legendary,poetic_edda,Völundarkviða,uncertain,,Weland,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+scyld,Scyld,Scyld,m,person,anglo_saxon,danish,danish,legendary,beowulf,Beowulf,shield,skjold,,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+wealhtheow,Wealhtheow,Wealhtheow,f,person,anglo_saxon,danish,danish,legendary,beowulf,Beowulf,foreign servant (uncertain),,Wealhþeow,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+unferth,Unferth,Unferth,m,person,anglo_saxon,danish,danish,legendary,beowulf,Beowulf,mar peace? (uncertain),,Hunferð,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+berig,Berig,Berig,m,person,gothic,gothic,gothic,legendary,jordanes,Getica,uncertain,,,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+filimer,Filimer,Filimer,m,person,gothic,gothic,gothic,legendary,jordanes,Getica,very famous (uncertain),,,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+ostrogotha,Ostrogotha,Ostrogotha,m,person,gothic,ostrogothic,gothic,legendary,jordanes,Getica,east Goth (uncertain),,Ostrogotha,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+kiy,Kiy,Kiy,m,person,varangian_rus,rus,slavic,legendary,primary_chronicle,PVL,uncertain,,Kii,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+shchek,Shchek,Shchek,m,person,varangian_rus,rus,slavic,legendary,primary_chronicle,PVL,uncertain,,Šček,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+khoryv,Khoryv,Khoryv,m,person,varangian_rus,rus,slavic,legendary,primary_chronicle,PVL,uncertain,,Choriv,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+lybed,Lybed,Lybed,f,person,varangian_rus,rus,slavic,legendary,primary_chronicle,PVL,uncertain,,Lybid,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+scythes,Scythes,Scythes,m,person,scythian,scythian,scythian,legendary,herodotus,Histories 4,uncertain,,,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+agathyrsos,Agathyrsos,Agathyrsos,m,person,scythian,agathyrsi,scythian,legendary,herodotus,Histories 4,uncertain,,Agathyrsus,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+gelonos,Gelonos,Gelonos,m,person,scythian,geloni,scythian,legendary,herodotus,Histories 4,uncertain,,Gelonus,attested,low,false,"Legendary figure; literary attestation only, not a historical record"
+alrekr,Alrekr,Alrekr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+askr,Askr,Askr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+aslakr,Aslakr,Aslakr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+borgautr,Borgautr,Borgautr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+eadwulf,Eadwulf,Eadwulf,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+eileifr,Eileifr,Eileifr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+eirikr,Eirikr,Eirikr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+erlingr,Erlingr,Erlingr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+fridleifr,Fridleifr,Fridleifr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+gautrekra,Gautrekra,Gautrekra,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+gautr,Gautr,Gautr,m,person,geat,geat,geat,4th-6th c.,beowulf,Beowulf,attested/plausible,,,attested,low,false,From Gothic/Jutish name list
+gisli,Gisli,Gisli,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+glumr,Glumr,Glumr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+gormr,Gormr,Gormr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+grimr,Grimr,Grimr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+gudmundr,Gudmundr,Gudmundr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+guthfrith,Guthfrith,Guthfrith,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+gylﬁ,Gylﬁ,Gylﬁ,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hakon,Hakon,Hakon,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+harek,Harek,Harek,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hasteinn,Hasteinn,Hasteinn,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+helgi,Helgi,Helgi,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hervardr,Hervardr,Hervardr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hjalmar,Hjalmar,Hjalmar,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hjortr,Hjortr,Hjortr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hlodvir,Hlodvir,Hlodvir,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+holar,Holar,Holar,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hraedlan,Hraedlan,Hraedlan,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hrodr,Hrodr,Hrodr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hrodgar,Hrodgar,Hrodgar,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hrolfr,Hrolfr,Hrolfr,m,person,geat,geat,geat,4th-6th c.,beowulf,Beowulf,attested/plausible,,,attested,low,false,From Gothic/Jutish name list
+hrossketill,Hrossketill,Hrossketill,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hundingr,Hundingr,Hundingr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+ingialdr,Ingialdr,Ingialdr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+ingolfr,Ingolfr,Ingolfr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+ivarr,Ivarr,Ivarr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+ketill,Ketill,Ketill,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+knutr,Knutr,Knutr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+kolbeinn,Kolbeinn,Kolbeinn,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+kolr,Kolr,Kolr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+leifr,Leifr,Leifr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+magnus,Magnus,Magnus,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+njall,Njall,Njall,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+oddr,Oddr,Oddr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+olafr,Olafr,Olafr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+onund,Onund,Onund,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+ormr,Ormr,Ormr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+oskatill,Oskatill,Oskatill,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+ottar,Ottar,Ottar,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+ragnarr,Ragnarr,Ragnarr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+rorik,Rorik,Rorik,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+saemundr,Saemundr,Saemundr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+sighvatr,Sighvatr,Sighvatr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+sigmundr,Sigmundr,Sigmundr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+sigtryggr,Sigtryggr,Sigtryggr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+sigurdr,Sigurdr,Sigurdr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+skagul,Skagul,Skagul,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+skallagrimr,Skallagrimr,Skallagrimr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+skardi,Skardi,Skardi,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+snorri,Snorri,Snorri,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+starkadr,Starkaðr,Starkadr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+sveinn,Sveinn,Sveinn,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+sverrir,Sverrir,Sverrir,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+thoralfr,Thoralfr,Thoralfr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+thorbeorht,Thorbeorht,Thorbeorht,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+thorbjorn,Thorbjorn,Thorbjorn,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+thordr,Thordr,Thordr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+thorgest,Thorgest,Thorgest,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+thorkell,Thorkell,Thorkell,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+tryggvi,Tryggvi,Tryggvi,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+ufﬁ,Ufﬁ,Ufﬁ,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+valdemar,Valdemar,Valdemar,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+valr,Valr,Valr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+vandradr,Vandradr,Vandradr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+vermundr,Vermundr,Vermundr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+vigfush,Vigfush,Vigfush,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+yngvarr,Yngvarr,Yngvarr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+alamir,Alamir,Alamir,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+ariaric,Ariaric,Ariaric,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+arimer,Arimer,Arimer,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+athalaric,Athalaric,Athalaric,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+athanaric,Athanaric,Athanaric,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+atharid,Atharid,Atharid,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+berimund,Berimund,Berimund,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+eberwolf,Eberwolf,Eberwolf,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+elaf,Elaf,Elaf,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+eran,Eran,Eran,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+gisalech,Gisalech,Gisalech,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+godigesil,Godigesil,Godigesil,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+gundobad,Gundobad,Gundobad,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+guntermund,Guntermund,Guntermund,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+hermanaric,Hermanaric,Hermanaric,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+ildibad,Ildibad,Ildibad,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+liuvigild,Liuvigild,Liuvigild,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+asvaldr,Asvaldr,Asvaldr,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+beorhtric,Beorhtric,Beorhtric,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+eadric,Eadric,Eadric,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+ealric,Ealric,Ealric,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+eanfrith,Eanfrith,Eanfrith,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+eysteinn,Eysteinn,Eysteinn,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+frodi,Frodi,Frodi,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+getwulf,Getwulf,Getwulf,m,person,gothic,jutish,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+varg,Varg,Varg,m,person,gothic,gothic,gothic,4th-6th c.,jordanes,Getica,attested/plausible,,,attested,low,true,From Gothic/Jutish name list
+sarwulf,Sarwulf,Sarwulf,m,person,gothic,vandal,vandalic,4th-6th c.,jordanes,Getica,uncertain,,,attested,low,true,Vandal name from the supplied name pool; provenance not independently verified
+roduulf,Roduulf,Roduulf,m,person,gothic,vandal,vandalic,4th-6th c.,jordanes,Getica,uncertain,,,attested,low,true,Vandal name from the supplied name pool; provenance not independently verified
+valamir,Valamir,Valamir,m,person,gothic,vandal,vandalic,4th-6th c.,jordanes,Getica,uncertain,,,attested,low,true,Vandal name from the supplied name pool; provenance not independently verified
+valamer,Valamer,Valamer,m,person,gothic,vandal,vandalic,4th-6th c.,jordanes,Getica,uncertain,,,attested,low,true,Vandal name from the supplied name pool; provenance not independently verified
