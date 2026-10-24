@@ -622,7 +622,21 @@ def menu_loop(entries: list[NameEntry], lexicon: list[dict[str, str]]):
         elif choice == "1":
             try:
                 day = input("Date (YYYY-MM-DD, empty=today): ").strip() or None
-                cult = input("Culture (empty=all): ").strip() or None
+                print(COLOR.bold("Daily pick - choose group"))
+                cultures = [
+                    ("1", "gothic", "gothic + norse + geat (default)"),
+                    ("2", "norse", "norse only"),
+                    ("3", "geat", "geat only"),
+                    ("4", "anglo_saxon", "anglo-saxon"),
+                    ("5", "varangian_rus", "varangian rus"),
+                    ("6", "scythian", "scythian (attested-only)"),
+                    ("7", "alan_sarmatian", "alan/sarmatian (attested-only)"),
+                ]
+                for k, c, d in cultures:
+                    print(f"  {COLOR.cyan(k)}) {COLOR.bold(c)}   {COLOR.dim(d)}")
+                ch = input(f"{COLOR.cyan('>')} ").strip()
+                cmap = {"1": DEFAULT_CULTURE, "2": "norse", "3": "geat", "4": "anglo_saxon", "5": "varangian_rus", "6": "scythian", "7": "alan_sarmatian"}
+                cult = cmap.get(ch, DEFAULT_CULTURE)
                 top_s = input("Top (empty=1): ").strip() or "1"
                 top = int(top_s)
                 for idx, entry in enumerate(daily_entries(entries, day, cult, top), 1):
@@ -633,11 +647,28 @@ def menu_loop(entries: list[NameEntry], lexicon: list[dict[str, str]]):
                 print(COLOR.red(f"error: {e}"))
         elif choice == "2":
             try:
-                cult = input("Culture (empty=all): ").strip() or None
-                gender = input("Gender (m/f/empty): ").strip() or None
-                cnt = int(input("Count (default 5): ").strip() or "5")
+                print(COLOR.bold("Generate - choose group"))
+                cultures = [
+                    ("1", "gothic", "gothic + norse + geat (default)"),
+                    ("2", "norse", "norse only"),
+                    ("3", "geat", "geat only"),
+                    ("4", "anglo_saxon", "anglo-saxon"),
+                    ("5", "varangian_rus", "varangian rus"),
+                    ("6", "scythian", "scythian (attested-only)"),
+                    ("7", "alan_sarmatian", "alan/sarmatian (attested-only)"),
+                ]
+                for k, c, d in cultures:
+                    print(f"  {COLOR.cyan(k)}) {COLOR.bold(c)}   {COLOR.dim(d)}")
+                ch = input(f"{COLOR.cyan('>')} ").strip()
+                cmap = {"1": DEFAULT_CULTURE, "2": "norse", "3": "geat", "4": "anglo_saxon", "5": "varangian_rus", "6": "scythian", "7": "alan_sarmatian"}
+                cult = cmap.get(ch, DEFAULT_CULTURE)
+                try:
+                    cnt = int(input("Count (default 5): ").strip() or "5")
+                except Exception:
+                    cnt = 5
                 seed_s = input("Seed (empty=random): ").strip()
                 seed = int(seed_s) if seed_s else None
+                gender = input("Gender (m/f/n/a/empty=all): ").strip() or None
                 for idx, entry in enumerate(generate_entries(entries, cult, gender, cnt, seed), 1):
                     print(f"=== {idx} ===")
                     print(format_entry(entry))
