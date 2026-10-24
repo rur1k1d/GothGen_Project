@@ -424,7 +424,7 @@ def color_status(c: Color, status: str) -> str:
 def format_entry(entry: NameEntry, brand: str | None = None, include_leet: bool = True, use_color: bool | None = None) -> str:
     c = COLOR if use_color is None else Color(use_color)
     lines = []
-    lines.append(f"{c.bold('Name:')}        {c.bold(entry.name)}")
+    lines.append(f"{c.blue('Name:')}        {c.bold(entry.name)}")
     lines.append(f"{c.dim('ASCII:')}       {ascii_fold(entry.name)}")
     if include_leet:
         lines.append(f"{c.dim('Leet:')}        {c.cyan(leetspeak(entry.name))}")
